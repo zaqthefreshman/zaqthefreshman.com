@@ -1,3 +1,4 @@
+
 body
 {
 	margin: 0;
@@ -13,8 +14,42 @@ body
 
 }
 
-#content
+#image
+{
+	height: 540px;
+}
+
+#navigation
 {
 	margin: auto;
 	width: 800px;
+	color: white;
+}
+
+#navigation ul
+{
+	list-style-type: none;
+}
+
+#navigation li
+{
+	display: inline;
+}
+
+
+
+//#navigation li.navitem a:link, #navigation li.navitem a:visited, 
+#navigation li.navitem a:hover, #navigation li.navitem a:active
+{
+	color: rgba(255,255,255,255);
+	border-bottom: 5px solid white;
+}
+
+#content
+{
+	background-image: url(src/content.png);
+	opacity: 0.4;
+	margin: auto;
+	width: 742px;
+	height: 421px;
 }
