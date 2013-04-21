@@ -1,0 +1,20 @@
+body
+{
+	margin: 0;
+	background-color: rgb(6, 6, 20);
+}
+
+#zaq
+{
+	background-image: url(src/background.png);
+	margin: auto;
+	width: 879px;
+	height: 1035px;
+
+}
+
+#content
+{
+	margin: auto;
+	width: 800px;
+}
