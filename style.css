@@ -7,22 +7,25 @@ body
 
 #zaq
 {
-	background-image: url(src/background.png);
 	margin: auto;
-	width: 879px;
-	height: 1035px;
 
 }
 
 #image
 {
+
+	background-image: url(src/background.png);
+	margin: auto;
+	width: 879px;
 	height: 540px;
 }
 
 #navigation
 {
+	display: block;
 	margin: auto;
-	width: 800px;
+	padding: 40;
+	width: 799px;
 	color: white;
 }
 
@@ -33,23 +36,62 @@ body
 
 #navigation li
 {
+	font-size: 16px;
 	display: inline;
+	margin: 0px;
+	border: none;
+	border-bottom: 3px solid white;
+	padding: 0px;
 }
 
 
-
-//#navigation li.navitem a:link, #navigation li.navitem a:visited, 
-#navigation li.navitem a:hover, #navigation li.navitem a:active
+#About:hover
 {
-	color: rgba(255,255,255,255);
-	border-bottom: 5px solid white;
+	border-bottom: 3px solid rgb(254, 0, 54);
+}
+
+#Games:hover
+{
+	border-bottom: 3px solid rgb(254, 0, 227);
+}
+
+#Forum:hover
+{
+	border-bottom: 3px solid rgb(48, 0, 254);
+}
+
+#Circle:hover
+{
+	border-bottom: 3px solid rgb(48, 0, 254);
+}
+
+#navigation li a
+{
+	text-decoration: none;
+	opacity: 0;
+	color: white;
+}
+
+
+#navigation li a
+{
+	text-decoration: none;	
+	opacity: 1;
+	color: white;
 }
 
 #content
 {
 	background-image: url(src/content.png);
-	opacity: 0.4;
 	margin: auto;
-	width: 742px;
-	height: 421px;
+	padding: 50px;
+	width: 642px;
+	height: 321px;
+	color: white;
+}
+
+#content p
+{
+	padding: 0px 40px;
+	font-size: 20px;
 }
