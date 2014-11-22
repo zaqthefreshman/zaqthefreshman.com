@@ -90,6 +90,12 @@ body
 	color: white;
 }
 
+#content h2
+{
+	margin: 5px 5px 4px 5px;
+	text-align: center;
+}
+
 #content p
 {
 	padding: 0px 40px;
@@ -98,13 +104,19 @@ body
 
 #content div
 {
-	display: inline-block;
+	float: left;
 	border: 5px solid white;
+	margin: 2px;
 	padding: 10px;
 	color: white;
+	width: 175px;
+	height: 185px;
 }
 
 #content div img
 {
-	width: 100%;
+	display: block;
+	width: 120px;
+	height: 120px;
+	margin: auto;
 }
