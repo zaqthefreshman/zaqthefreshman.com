@@ -90,6 +90,19 @@ body
 	color: white;
 }
 
+#content iframe
+{
+	display: block;
+	margin: auto;
+}
+
+#content a
+{
+	display: block;
+	margin: auto;
+	text-align: center;
+}
+
 #content h2
 {
 	margin: 5px 5px 4px 5px;
