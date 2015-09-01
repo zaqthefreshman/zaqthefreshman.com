@@ -1,0 +1,20 @@
+<html>
+<head><title>clickHandler</title></head>
+<body>
+
+<div id="idiggty"><p>adafasdfasdfasdf</p></div>
+
+<script type="text/javascript">
+function resizeBox(elementID) {
+	console.log(elementID);
+	element = document.getElementById(elementID);
+	if (element.currentHeight == 210) {
+		element.style.Height = 450;
+		element.style.Width = 450;
+	}
+}
+
+document.getElementById("idiggty").addEventListener('click', function() { resizeBox('idiggty'); });
+</script>
+</body>
+</html>
