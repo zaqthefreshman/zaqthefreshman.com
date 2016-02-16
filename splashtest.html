@@ -46,18 +46,6 @@
             }
           }
 
-          function checkAlreadyInvoked() {
-            var invokedCookie = "e8ea69902d7deb676cec223d25091a93" + "_invoked";
-
-            if (document.cookie.indexOf(invokedCookie + "=") !== -1) {
-              return true;
-            } else {
-              document.cookie = invokedCookie + "=true; expires=" + new Date(Date.now() + 300000).toGMTString();
-
-              return false;
-            }
-          }
-
           function invoke() {
             redirect(redirectFn, [].concat(urls));
             // On FF Android, if we try to invoke the app and it is not installed, it
@@ -135,9 +123,7 @@
             window.location = urls[urls.length - 1];
           }
 
-          if (!checkAlreadyInvoked()) {
-            invoke();
-          }
+          invoke();
         </script>
       </head>
       <body>
