@@ -9,16 +9,15 @@
   <body>
 	<div id="zaq">
 		<div id="image"></div>
-		
+
 		<div id="navigation">
-			<ul id="tabs">	
+			<ul id="tabs">
 				<a href="/"><li id="About">About</li></a>
 				<a href="/Games"><li id="Games">Games</li></a>
-				<a href="/Circle"><li id="Circle">Circle</li></a>
 				<a href="/Contact"><li id="Contact">Contact</li></a>
 			</ul>
-		</div> 
-			
+		</div>
+
 		<div id="content">
 			<a href="/Games/FlyingDiscHospital/">
 			<div>
@@ -27,15 +26,15 @@
 			</div>
 			</a>
 		</div>
-  
-  
+
+
   <script>
 	(function() {
 		var sneaky = new ScrollSneak(location.hostname), tabs = document.getElementById('tabs').getElementsByTagName('li'), i = 0, len = tabs.length;
 		for (; i < len; i++) {
 			tabs[i].onclick = sneaky.sneak;
 		}
-    
+
 		document.getElementById('next').onclick = sneaky.sneak;
 	})();
 	</script>
